@@ -44,6 +44,8 @@ www.metacritic.com
 
 User the Vader Sentiment Intensity Analyzer, there were a significantly large amount of reviews that were classified as positive. It is possible that some reviews could have been missclassied i.e high user rating but classified as negative, so further analysis should be done on the differences between the classifications and the individual user rating for the reviews.
 
+![Image](/images/sent_class.png)
+
 ### User Reviews:
 
 Analyzing user reviews can also come with analyzing irrelavent data since user can type in whatever they want. Through analyzing the frequencies of bigrams and trigrams, many of the top words were just repeated a bunch of times in a single review and it was confirmed that it was indeed how the reviews appear on metacritic as well but 
@@ -51,6 +53,10 @@ Analyzing user reviews can also come with analyzing irrelavent data since user c
 ### Word Cloud
 
 After cleaning the review text removing stop words, word clouds were created to have a visual on which particular words were used most frequently between classes as well as certain genres. Below is an example of the word usage for positive reviews in Rock and Rap albums. As you can see, Rock fans typically mention the lyrics and sound while rap fans make references to a certain track on the album as well as the quality of the beats and production.
+
+![Image](/images/rock_pos.png)
+![Image](/images/rap_pos.png)
+
 
 ### Accuracy and F1 score metrics to evaluate sentiment classifer:
 
