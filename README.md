@@ -6,7 +6,11 @@ As the digital age continues to advance, the music industry has had to adapt to 
 
 Due to the fact that users can pick and choose specifc songs from an artist's album to listen to, it is more difficult to gauge the reception of the full breadth of the artist's work through stream alone. This is why online reviews of albums can show it's usefullness as it provides direct feedback to artists and labels about the entirity of their catalog. Through online reviews from users, artists are able to get a better idea of what their fans like and dislike about the album, increase awareness of their content depending on how highly regarded it is, and ultimately make improvements on their next project. 
 
-In this project, data was collected from www.metacritic.com and consisted of user reviews and other details of the albums on the website. These reviews were used to analyze the sentiment from each user to establish an NLP classification model that can accurately classify reviews as positive, neutral, or negative.   
+In this project, data was collected from www.metacritic.com and consisted of user reviews and other details of the albums on the website. These reviews were used to analyze the sentiment from each user to establish an NLP classification model that can accurately classify reviews as positive, neutral, or negative. 
+
+Source:
+https://www.statista.com/chart/12950/cd-sales-in-the-us/#:~:text=According%20to%20the%20Recording%20Industry,album%20topped%20the%20Billboard%20charts.
+https://www.rollingstone.com/pro/news/album-sales-dying-as-fast-as-streaming-services-rising-774563/
 
 ## Goals of this project: 
 
@@ -50,11 +54,11 @@ After cleaning the review text removing stop words, word clouds were created to 
 
 ### Accuracy and F1 score metrics to evaluate sentiment classifer:
 
-The metrics used to evaluate the models are the accuracy score and weighted f1 score. The final model used was an SVM model which had an accuracy score of 0.887, and a weighted f1 score of 0.877. While this model performs well, it's understandable to consider the user's rating score as their overall opinion on an album. However, a benefit of using a sentiment classier over simply relying on the rating score is t
+The metrics used to evaluate the models are the accuracy score and weighted f1 score. The final model used was an SVM model which had an accuracy score of 0.887, and a weighted f1 score of 0.877. While this model performs well, it's understandable to consider the user's rating score as their overall opinion on an album. However, a benefit of using a sentiment classier over simply relying on the rating score is that it capturess the qualitative aspect of the opinions behind the review
 
 ### Future steps:
 
-The way we preprocess the data really has an influence on prediction. The way the corpus is preprocessed will differentiate the results. For example, in this project, we found out that stemming works better than lemmatization while normally lemmatization will do a better job than stemming. This is because we are dealing with Yelp reviews. When writing Yelp reviews, many people do not pay attention to proper grammar rules, some times not even completing words, they don't fully complete their sentances and they are trying to write as simple as possible as long as they can express their dissatisfaction. In this particular case, it makes sense that stemming works better. Thus, in NLP, data scientists shall firstly look into the corpus, understand how the texts look like and then determine which preprocessing steps make sense.
+For some of the reviews, the ratings score differed from the sentiment that was classified with vader so further analysis would be needed to understand and correct these discrepancies. Additionally, I believe it would be fruitful to analyze album reviews from critics as well since these are professionally written to avoid any misinformation from the review text. Lastly, another stretch goal I would like to achieve with this project is to develop a text generator for the reviews of each class that can potentially used for automation.
 
 
 ## Project presentation link:
