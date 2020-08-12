@@ -31,7 +31,7 @@ www.metacritic.com
 ## Approach:
 
 *  mod6_project.ipynb, *-- the main jupyter notebook of this project, containing 6 parts: 
-1. Data collection - Webscraping (See album_scrape.ipynb)
+1. Data collection - Webscraping (See Metacritc Scrape.ipynb)
 2. Data cleaning
 3. Explanatory Data Analysis
 4. Preprocessing & feature engineering
