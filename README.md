@@ -62,7 +62,7 @@ After cleaning the review text removing stop words, word clouds were created to 
 
 ### Accuracy and F1 score metrics to evaluate sentiment classifer:
 
-The metrics used to evaluate the models are the accuracy score and weighted f1 score. The final model used in both data sets was an SVM model which had an accuracy score of 0.890 and a weighted f1 score of 0.891 for user reviews, and an accuracy and weighted of 0.843 and 0.844 respectively for critic reviews. While this model performs well, it's understandable to consider the user's rating score as their overall opinion on an album. However, a benefit of using a sentiment classier over simply relying on the rating score is that it capturess the qualitative aspect of the opinions behind the review
+The metrics used to evaluate the models are the accuracy score and weighted f1 score. The final model used in both data sets was an SVM model which had an accuracy score of 0.890 and a weighted f1 score of 0.891 for user reviews, and an accuracy and weighted of 0.843 and 0.844 respectively for critic reviews. While this model performs well, it's understandable to consider the rating score as their overall opinion on an album. However, a benefit of using a sentiment classier over simply relying on the rating score is that it capturess the qualitative aspect of the opinions behind the review
 
 ### Future steps:
 
