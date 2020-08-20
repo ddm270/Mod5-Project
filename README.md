@@ -46,6 +46,7 @@ www.metacritic.com
 User the Vader Sentiment Intensity Analyzer, there were a significantly large amount of reviews that were classified as positive. It is possible that some reviews could have been missclassied i.e high user rating but classified as negative, so further analysis should be done on the differences between the classifications and the individual user rating for the reviews.
 
 ![Image](/images/sent_class.png)
+![Image](/images/sent_class_crit.png)
 
 ### User Reviews:
 
